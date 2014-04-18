@@ -39,7 +39,11 @@ def main_menu():
         elif command == 'help':
             print("login - for logging in!")
             print("register - for creating new account!")
-            print("exit - for closing program!")
+            print("send-reset-password - to send a " \
+                  "password reset code to your email!")
+            print("reset-password - to reset your password using a " \
+                  "code from your email, to get it use the command above!")
+            print("exit - for closing the program!")
 
         elif command == 'exit':
             break
@@ -90,6 +94,12 @@ def logged_menu(logged_user):
             print("changepass - for changing passowrd")
             print("change-message - for changing users message")
             print("show-message - for showing users message")
+            print("deposit - to deposit into your account")
+            print("withdraw - to withdraw from your account")
+            print("display-balance - to display your current balance")
+            print("get-tan - to send TAN codes to your email, you need " \
+                  "them to make a deposit or to withdraw!")
+            print("logout - to return to the main menu")
 
         elif command == 'logout':
             break
