@@ -51,4 +51,8 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+<<<<<<< HEAD
 *.db
+=======
+
+>>>>>>> a4f7ba9abdc65cf3e254f34533b2e9965e524994
