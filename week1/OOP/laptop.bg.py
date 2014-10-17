@@ -34,7 +34,7 @@ class Smartphone(Product):
 
 
 class Store:
-
+    _total_income = 0
     def __init__(self, name):
         self.name = name
         self.items = {}
@@ -54,9 +54,13 @@ class Store:
         for item in self.items:
             if self.items[item] > 0:
                 self.items[item] -= 1
+                self._total_income += poduct.profit()
                 return True
             else:
                 return False
+
+    def total_income(self):
+        #print(self._total_income)
 
 
 
@@ -82,6 +86,8 @@ def main():
     print(new_store.sell_product(new_smarthphone)) # True
     print(new_store.sell_product(new_smarthphone)) # True
     print(new_store.sell_product(new_smarthphone))
+
+
 
 if __name__ == "__main__":
     main()
