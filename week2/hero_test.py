@@ -22,7 +22,7 @@ class HeroTest (unittest.TestCase):
 
     def test_is_alive_return_false(self):
 
-        self.bron_hero.health = 0
+        self.bron_hero.fight_health = 0
         self.assertFalse(self.bron_hero.is_alive())
 
     def test_is_alive(self):

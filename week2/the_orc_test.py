@@ -1,15 +1,16 @@
 import unittest
 from orc import Orc
+from weapon import Weapon
 
 class OrcTest (unittest.TestCase):
     def setUp(self):
         self.orc = Orc("Gosho", 100, 1.25)
 
-    def test_hero_init(self):
+    def test_orc_init(self):
     
         self.assertEqual(self.orc.name, "Gosho")
         self.assertEqual(self.orc.health, 100)
-        self.assertEqual(self.orc.berserk_factor, 1.25)
+        self.assertEqual(self.orc.berserk_factor, 1.25) 
 
     def test_get_health(self):
 
@@ -17,7 +18,7 @@ class OrcTest (unittest.TestCase):
 
     def test_is_alive_return_false(self):
 
-        self.orc.health = 0
+        self.orc.fight_health = 0
         self.assertFalse(self.orc.is_alive())
 
     def test_is_alive(self):
@@ -53,6 +54,13 @@ class OrcTest (unittest.TestCase):
     def test_berserk_factor_over_two(self):
         self.orc.berserk_factor = 2.14
         self.assertEqual(self.orc.berserk_factor_check(), 2)
+
+    def test_orc_attack_with_weapon(self):
+        self.orc.equip_weapon(Weapon("Pipe", 35, 0.5))
+        self.assertEqual(self.orc.attack(), 70)
+
+    def test_orc_attack_without_weapon(self):
+        self.assertEqual(self.orc.attack(), 0)
 
 
 if __name__ == '__main__':

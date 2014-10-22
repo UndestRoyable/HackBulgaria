@@ -2,9 +2,9 @@ from entity import Entity
 
 class Orc(Entity):
 
-    def __init__(self, name, health, berserkfactor):
+    def __init__(self, name, health, berserk_factor):
         super().__init__(name, health)
-        self.berserkfactor = berserkfactor
+        self.berserk_factor = berserk_factor
 
     def berserk_factor_check(self):
         if self.berserk_factor < 1:
@@ -17,5 +17,14 @@ class Orc(Entity):
             
         else:
             return self.berserk_factor
+
+    def attack(self):
+        if self.has_weapon():
+            if self.weapon.critical_hit():
+                return self.berserk_factor * self.weapon.damage * 2
+            else:
+                return self.berserk_factor * self.weapon.damage
+        else:
+            return 0
 
    

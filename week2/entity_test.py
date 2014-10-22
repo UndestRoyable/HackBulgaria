@@ -17,7 +17,7 @@ class EntityTest (unittest.TestCase):
 
     def test_is_alive_return_false(self):
 
-        self.entity.health = 0
+        self.entity.fight_health = 0
         self.assertFalse(self.entity.is_alive())
 
     def test_is_alive(self):
@@ -49,12 +49,20 @@ class EntityTest (unittest.TestCase):
         self.assertEqual(self.entity.weapon, lopata_weapon)
 
     def test_has_weapon(self):
-
+        lopata_weapon = Weapon("Lopata",35,0.5)
+        self.entity.equip_weapon(lopata_weapon)
         self.assertTrue(self.entity.has_weapon())
 
     def test_does_not_have_weapon(self):
 
         self.assertFalse(self.entity.has_weapon())
+
+    def test_attack_with_weapopn(self):
+        self.entity.equip_weapon(Weapon("ChainSaw", 55, 0.4))
+        self.assertEqual(self.entity.attack(), 55)
+
+    def test_attack_without_weapon(self):
+        self.assertEqual(self.entity.attack(), 0)
 
 
 
