@@ -1,22 +1,9 @@
-class Orc:
+class Entity:
 
-    def __init__(self,name,health,berserk_factor):
+    def __init__(self,name,health,weapon = None):
         self.name = name
         self.health = health
-        self.berserk_factor = berserk_factor
-        #self._MAX_HEALTH = health
-
-    def berserk_factor_check(self):
-        if self.berserk_factor < 1:
-            self.berserk_factor = 1
-            return self.berserk_factor
-
-        elif self.berserk_factor > 2:
-            self.berserk_factor = 2
-            return self.berserk_factor
-            
-        else:
-            return self.berserk_factor
+        self.weapon = weapon
 
     def get_health(self):
         return self.health
@@ -41,4 +28,10 @@ class Orc:
         elif self.health + healing_points < 100:
             return True
 
-        
+    def equip_weapon(self,weapon):
+        self.weapon = weapon
+
+    def has_weapon(self):
+        if self.weapon != None:
+            return True
+        return False
