@@ -29,6 +29,11 @@ class FightTest (unittest.TestCase):
         self.assertEqual(fight.orc.fight_health, 0)
         self.assertTrue(fight.hero.fight_health > 0)
 
+        
+
+
+
+
 
 if __name__ == '__main__':
     unittest.main()

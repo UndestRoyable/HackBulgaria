@@ -24,3 +24,11 @@ class Fight:
             while self.hero.is_alive() and self.orc.is_alive():
                 self.hero.take_damage(self.orc.attack())
                 self.orc.take_damage(self.hero.attack())
+
+    def get_winner(self):
+        if self.hero.is_alive() and self.orc.is_alive() == False:
+            winner = self.hero.name
+            print(winner)
+        if self.orc.is_alive() and self.hero.is_alive() == False:
+            winner = self.orc.name
+            print(winner)
