@@ -6,13 +6,13 @@ def sec_to_min(secs):
     return "%d:%02d:%02d" % (h, m, s)
 
 def load(file_name):
-    my_file = open(file_name, 'r')
-    content = my_file.read()
-    content = json.loads(content)
-    my_file.close()
-    loaded_plist = Playlist(content['name'])
-    for song in content['songs']:
-        loaded_plist.songs.append(
+    file = open(file_name, 'r')
+    file_content = file.read()
+    file_content = json.loads(content)
+    file.close()
+    loaded_playlist = Playlist(content['name'])
+    for song in file_content['songs']:
+        loaded_playlist.songs.append(
             Song(
                 song['name'],
                 song['artist'],
@@ -22,7 +22,7 @@ def load(file_name):
                 song['bitrate']
             )
         )
-    return loaded_plist
+    return loaded_playlist
 
 class Playlist:
 
