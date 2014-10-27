@@ -1,0 +1,21 @@
+{
+    "songs": [
+        {
+            "bitrate": 320,
+            "album": "The Razors Edge",
+            "rating": 5,
+            "length": 271.8,
+            "title": "Thunderstruck",
+            "artist": "ACDC"
+        },
+        {
+            "bitrate": 320,
+            "album": "IDK",
+            "rating": 0,
+            "length": 271.8,
+            "title": "Nothing else matters",
+            "artist": "Metallica"
+        }
+    ],
+    "name": "TestPlaylist"
+}

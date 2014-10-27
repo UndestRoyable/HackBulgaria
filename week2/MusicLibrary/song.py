@@ -16,4 +16,5 @@ class Song:
         else:
             raise ValueError("Invalid rating! The rating must be between 0..5!")
     
-    
+    def __repr__(self):
+        return str(self.__dict__)

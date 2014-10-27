@@ -7,11 +7,13 @@ class TestPlaylist (unittest.TestCase):
     def setUp(self):
         self.playlist = Playlist("TestPlaylist")
         self.song = Song("Thunderstruck", "ACDC", "The Razors Edge", 5, 271.8, 320)
-
-    def test_playlist_init(self):
+        self.song2 = Song("Nothing else matters", "Metallica", "IDK", 0, 271.8, 320)
+        self.playlist.add_song(self.song)
+        self.playlist.add_song(self.song2)
+    """def test_playlist_init(self):
         
         self.assertEqual(self.playlist.name, "TestPlaylist")
-        self.assertListEqual(self.playlist.songs,[])
+        self.assertListEqual(self.playlist.songs,[])"""
 
     def test_add_song(self):
         self.playlist.add_song(self.song)
@@ -47,8 +49,15 @@ class TestPlaylist (unittest.TestCase):
 
         self.assertEqual(self.playlist.show_artists(),["ACDC","Metallica"])
 
+    def test_save(self):
+        playlist = Playlist("TestPlaylist")
+        song1 = Song("Thunderstruck", "ACDC", "The Razors Edge", 5, 271.8, 320)
+        song2 = Song("Thunderstruck", "ACDC", "The Razors Edge", 5, 200, 320)
 
-
+        playlist.add_song(song1)
+        playlist.add_song(song2)
+        
+        self.playlist.save("json.txt")
 
     
 if __name__ == '__main__':

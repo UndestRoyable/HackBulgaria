@@ -19,7 +19,8 @@ class Playlist:
     def remove_song(self,song_name):
         for song in self.songs:
             if song.title == song_name:
-                self.songs.remove(song) #self.song.remove
+                self.songs.remove(song)
+                break #self.song.remove
 
 
     def total_length(self):
@@ -29,14 +30,20 @@ class Playlist:
         return playlist_total_length
 
     def remove_disrated(self,rating):
-        for song in self.songs:
-            if song.rating < rating:
-                self.songs.remove(song)
+        result = []
+        for i in range(0, len(self.songs)):
+            if self.songs[i].rating >= rating:
+                result.append(self.songs[i])
+        self.songs = result
+        return self.songs
 
     def remove_bad_quality(self):
-        for song in self.songs:
-            if song.bitrate <= LOW_BITRATE:
-                self.songs.remove(song)
+        result = []
+        for i in range(0, len(self.songs)):
+            if self.songs[i].bitrate > Playlist.LOW_BITRATE:
+                result.append(self.songs[i])
+        self.songs = result
+        return self.songs
 
     def show_artists(self):
         artists = []
@@ -47,10 +54,25 @@ class Playlist:
         return artists
 
     def __str__(self):
-        result = ""
-        for song in self.songs:
-            "{} {} - {}".format(song.artist,song.title,secs_to_min(playlist.total_length()))
-        pass
+        return '\n'.join("{} {} {}:{}".format(
+            song.artist, song.title, song.length // 60,
+            song.length % 60) for song in self.songlist)
+
+    def save(self, file_name):
+        json_dict = {"name": self.name,
+                     "songs": [{"title": song.title,
+                                "artist": song.artist,
+                                "album": song.album,
+                                "rating": song.rating,
+                                "length": song.length,
+                                "bitrate": song.bitrate}
+                               for song in self.songs]}
+        file = open(file_name, 'r+')
+        file.write(json.dumps(json_dict, indent=4, separators=(',', ': ')))
+        file.close()
+
+def load(self):
+    pass
 
 
 
