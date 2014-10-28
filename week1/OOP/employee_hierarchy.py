@@ -11,7 +11,7 @@ class HourlyEmployee(Employee):
         super().__init__(name)
         self.salary_per_hour = salary
 
-    def weekSalary(self, hours):
+    def weeklyPay(self, hours):
         if hours <= 40:
             return hours * self.salary_per_hour
         else:
@@ -45,7 +45,7 @@ def main():
     staff.append(Manager("Smith, Mary", 104000.0, 50.0))
     for employee in staff :
         hours = int(input("Hours worked by " + employee.getName() + ": "))
-        pay = employee.weekSalary(hours)
+        pay = employee.weeklyPay(hours)
         print("Salary: %.2f" % pay)
 
 
