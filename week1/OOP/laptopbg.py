@@ -8,7 +8,7 @@ class Product:
     def profit(self):
         profit = 0
         profit = (self.final_price - self.stock_price)
-        print(profit)
+        return profit
 
     def __str__(self):
         return "{} {} {}".format(self.name, self.stock_price, self.final_price) 
@@ -23,7 +23,7 @@ class Laptop(Product):
         self.ram = ram
 
     def print_laptop(self):
-        print(self.name, self.stock_price, self.final_price, self.diskspace, self.ram)
+        return "{}, {}, {}, {}, {}".format(self.name, self.stock_price, self.final_price, self.diskspace, self.ram)
 
 
 class Smartphone(Product):
@@ -61,10 +61,10 @@ class Store:
 
     def total_income(self):
         #print(self._total_income)
+        pass
 
 
-
-def main():
+"""def main():
     
     new_product = Product('HP HackBook', 1000, 1243) #Creates product instance
     print("Profit after selling HP HackBook: ")
@@ -91,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
