@@ -45,7 +45,7 @@ def match_teams(course_id, team_size, group_time):
                 persons.append(person["name"])
                 break
     
-    broq4 = 0 #MUAHAHAHAHAHA, FUCK QUALITY CODE 
+    broq4 = 0 #KEEP CALM, IVO! =D
     shuffle(persons)
     for i in range(len(persons)):
         if broq4 == team_size:
@@ -60,6 +60,9 @@ def command_parser():
         list_all_courses()
     else:
         raise ValueError("Invalid command! Available commands: [list] and [match_teams <course_id>, <team_size>, <group_time>] ")
+    '''if "match" in command:
+        command.split(" ")
+        match_teams(command[1], command[2], command[3])'''
 
 def main():
     print(menu_message())

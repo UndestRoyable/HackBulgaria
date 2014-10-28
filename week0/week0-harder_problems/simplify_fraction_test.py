@@ -1,14 +1,17 @@
 import unittest
-from simplify_fraction import simplify_fraction
+from simplify_fraction import *
 
-class SimplifyFractionTest(unittest.TestCase):
 
-    def test_for_correct_output(self):
+class Simplify_fraction_test(unittest.TestCase):
 
-        self.assertEqual((1,3), simplify_fraction(3,9))
-        self.assertEqual((1,7), simplify_fraction(1,7))
-        self.assertEqual((2,5), simplify_fraction(4,10))
-        self.assertEqual((3,22), simplify_fraction(63,462))
-        #FIX, The test is fucking homo. =D
+    def test_simplify_fracion1(self):
+        self.assertEqual(simplify_fraction((1, 7)), (1, 7))
+    def test_simplify_fracion2(self):
+        self.assertEqual(simplify_fraction((4, 10)), (2, 5))
+    def test_simplify_fracion3(self):
+        self.assertEqual(simplify_fraction((63, 462)), (3, 22))
+
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,9 +1,10 @@
-def simplify_fraction(nominator_denominator):
-    nominator = nominator_denominator[0]
-    denominator = nominator_denominator[1]
-    for i in range(1, nominator + 1):
-        if nominator % i == 0 and denominator % i == 0:
-            nominator //= i
-            denominator //= i
-    return (nominator, denominator)
+def greatest_common_divisor(a,b):
+    if a == b:
+        return a
+    if a > b:
+        return greatest_common_divisor(a - b, b)
+    return greatest_common_divisor(a, b - a)
+def simplify_fraction(fraction):
+    gcd = greatest_common_divisor(fraction[0],fraction[1])
+    return (fraction[0] // gcd, fraction[1] // gcd)
 
