@@ -38,12 +38,9 @@ class Store:
     def __init__(self, name):
         self.name = name
         self.items = {}
-
-    def load_new_products(self, item, count):
-        if item in self.items:
-            self.items[item] += count
-        else:
-            self.items[item] = count
+        self.profit = 0
+    def load_new_products(self, product, count):
+        self.items[product] = count
 
     def list_products(self, item_class):
         for item in self.items:
@@ -54,17 +51,16 @@ class Store:
         for item in self.items:
             if self.items[item] > 0:
                 self.items[item] -= 1
-                self._total_income += poduct.profit()
+                self.profit += poduct.profit()
                 return True
             else:
                 return False
 
     def total_income(self):
-        #print(self._total_income)
-        pass
+        return self.profit
+        
 
-
-"""def main():
+def main():
     
     new_product = Product('HP HackBook', 1000, 1243) #Creates product instance
     print("Profit after selling HP HackBook: ")
@@ -83,12 +79,12 @@ class Store:
     new_store.list_products(Laptop)
     new_store.list_products(Smartphone)
 #-----------------------------------------------------------------------------------
-    print(new_store.sell_product(new_smarthphone)) # True
-    print(new_store.sell_product(new_smarthphone)) # True
+""" print(new_store.sell_product(new_smarthphone))
     print(new_store.sell_product(new_smarthphone))
+    print(new_store.sell_product(new_smarthphone))"""
+
 
 
 
 if __name__ == "__main__":
     main()
-"""
