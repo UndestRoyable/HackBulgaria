@@ -42,6 +42,24 @@ class LaptopBgTest (unittest.TestCase):
         new_store.load_new_products(new_smarthphone, 2)
         self.assertIsNotNone(new_store.items)
 
+    def test_sell_product(self):
+        store = Store('Laptop.bg')
+        smartphone = Smartphone('Hack Phone', 500, 820, 7, 10)
+        store.load_new_products(smartphone, 2)
+        
+        self.assertTrue(store.sell_product(smartphone)) #True
+        self.assertTrue(store.sell_product(smartphone)) #True
+        self.assertFalse(store.sell_product(smartphone))
+
+    def test_total_income(self):
+        store = Store('Laptop.bg')
+        smartphone = Smartphone('Hack Phone', 500, 820, 7, 10)
+        store.load_new_products(smartphone, 2)
+        
+        store.sell_product(smartphone)
+        store.sell_product(smartphone)
+
+        self.assertEqual(store.total_income(), 640)
     
 if __name__ == '__main__':
     unittest.main()

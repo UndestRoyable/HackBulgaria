@@ -51,7 +51,7 @@ class Store:
         for item in self.items:
             if self.items[item] > 0:
                 self.items[item] -= 1
-                self.profit += poduct.profit()
+                self.profit += item.profit()
                 return True
             else:
                 return False
