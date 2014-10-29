@@ -1,10 +1,5 @@
 import json
 
-def sec_to_min(secs):
-    m, s = divmod(secs, 60)
-    h, m = divmod(m, 60)
-    return "%d:%02d:%02d" % (h, m, s)
-
 def load(file_name):
     file = open(file_name, 'r')
     file_content = file.read()
@@ -73,9 +68,10 @@ class Playlist:
         return artists
 
     def __str__(self):
-        return '\n'.join("{} {} {}:{}".format(
-            song.artist, song.title, song.length // 60,
-            song.length % 60) for song in self.songlist)
+        result = ""
+        for song in self.songs:
+            result += "{} {} - {}\n".format(song.artist, song.title, "{}:{}".format(int(song.length // 60), int(song.length % 60)))
+        return result
 
     def save(self, file_name):
         json_dict = {"name": self.name,
@@ -90,8 +86,7 @@ class Playlist:
         file.write(json.dumps(json_dict, indent=4, separators=(',', ': ')))
         file.close()
 
-def load(self):
-    pass
+
 
 
 
