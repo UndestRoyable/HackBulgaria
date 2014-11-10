@@ -9,7 +9,10 @@ class DirectedGraph:
             self.graph[node_a].append(node_b)
 
     def get_neighbours_for(self, node):
-        return self.graph[node]
+        try:
+            return self.graph[node]
+        except:
+            print("{} does not figure in the graph!".format(graph))
 
     def path_between(self, node_a, node_b):
         for neighbours in self.graph[node_a]:
