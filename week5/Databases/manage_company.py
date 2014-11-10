@@ -2,22 +2,30 @@ import sqlite3
 
 
 def menu_print():
+    commands = ["list_employees", "monthly_spending", "yearly_spending", "add_employee", "delete_employee", "update_employee"]
     print("Hello! I'm your company manager!")
     print("You have the following commands:")
-    print("list_employees, monthly_spending, yearly_spending, add_employee, delete_employee, update_employee")
+    command_id = 0
+    for command in commands:
+        command_id += 1
+        print("[{}]".format(command_id) + command + "\n")
     print("If you want to see how they work, type -commands ")
 
 
 def commands_description():
     print("""list_employees - Prints out all employees,
-            in the following format name - position""")
-
-    print(""" monthly_spending - Prints out the total sum for monthly
-            spending that the company is doing for salaries""")
-    print(" yearly_spending - Prints out the total sum for one year of operation (Again, salaries)")
+             in the following format name - position""")
+    print("===============================================")
+    print("""monthly_spending - Prints out the total sum for monthly
+              spending that the company is doing for salaries""")
+    print("===============================================")
+    print("yearly_spending - Prints out the total sum for one year of operation (Again, salaries)")
+    print("===============================================")
     print("add_employee, the program starts to promt for data, to create a new employee.")
+    print("===============================================")
     print("""delete_employee <employee_id>,
             the program should delete the given employee from thje database""")
+    print("===============================================")
     print("""update_employee <employee_id>,
              the program should prompt the user to change each of the fields for the given employee""")
 
@@ -28,7 +36,7 @@ result = cursor.execute("SELECT * FROM employees")
 
 menu_print()
 
-command = input("Enter command:")
+command = input("Enter command(not the number in front of it!): ")
 
 if command == "-commands":
     commands_description()
