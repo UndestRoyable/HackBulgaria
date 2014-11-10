@@ -1,0 +1,667 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_info	function"
+			],
+			[
+				"food",
+				"food_weight_ratio"
+			],
+			[
+				"avera",
+				"average_weight	param"
+			],
+			[
+				"ave",
+				"average_weight"
+			],
+			[
+				"ani",
+				"animal2	statement"
+			],
+			[
+				"a",
+				"append	function"
+			],
+			[
+				"ne",
+				"new_born_weight	param"
+			],
+			[
+				"foo",
+				"food_weight_ratio"
+			],
+			[
+				"we",
+				"weight_age_ratio	statement"
+			],
+			[
+				"ge",
+				"gestation_period	statement"
+			],
+			[
+				"gest",
+				"gestation_period"
+			],
+			[
+				"life",
+				"life_expectancy	statement"
+			],
+			[
+				"w",
+				"weight_age_ratio	statement"
+			],
+			[
+				"assert",
+				"assertEqual	function"
+			],
+			[
+				"s",
+				"species"
+			],
+			[
+				"ass",
+				"assertFalse"
+			],
+			[
+				"nod",
+				"node_a"
+			],
+			[
+				"node",
+				"node_a"
+			],
+			[
+				"add",
+				"add_node"
+			],
+			[
+				"st",
+				"store"
+			],
+			[
+				"new",
+				"new_store"
+			],
+			[
+				"new_s",
+				"new_store"
+			],
+			[
+				"ma",
+				"match_teams"
+			],
+			[
+				"course",
+				"course_wanted"
+			],
+			[
+				"hack",
+				"hack_courses"
+			],
+			[
+				"api",
+				"api_data_json"
+			],
+			[
+				"api_data",
+				"api_data_json"
+			],
+			[
+				"ap",
+				"api_data"
+			],
+			[
+				"asse",
+				"assertEqual"
+			],
+			[
+				"rat",
+				"rating"
+			],
+			[
+				"S",
+				"song"
+			],
+			[
+				"is",
+				"is_alive"
+			],
+			[
+				"asser",
+				"assertFalse"
+			],
+			[
+				"c",
+				"critical_strike_percent"
+			],
+			[
+				"heal",
+				"healing_points"
+			],
+			[
+				"pri",
+				"print_items"
+			],
+			[
+				"item",
+				"item_class"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"dis",
+				"display_size"
+			],
+			[
+				"prin",
+				"print_store"
+			],
+			[
+				"print",
+				"print_laptop"
+			],
+			[
+				"sto",
+				"stock_price"
+			],
+			[
+				"mone",
+				"money_sum"
+			],
+			[
+				"total",
+				"total_amount_of_money"
+			],
+			[
+				"tota",
+				"total_amount_of_money"
+			],
+			[
+				"lie",
+				"lines_count"
+			],
+			[
+				"cha",
+				"chars_count"
+			],
+			[
+				"ch",
+				"chars_count"
+			],
+			[
+				"li",
+				"lines_count"
+			],
+			[
+				"word",
+				"words_count"
+			],
+			[
+				"char",
+				"char_count"
+			],
+			[
+				"so",
+				"source_opened"
+			],
+			[
+				"sour",
+				"source_file"
+			],
+			[
+				"wri",
+				"write_file_opened"
+			],
+			[
+				"open",
+				"open_file_1"
+			],
+			[
+				"inte",
+				"integer"
+			],
+			[
+				"int",
+				"integers_Sum"
+			],
+			[
+				"integ",
+				"integers"
+			],
+			[
+				"file",
+				"file_to_read_from"
+			],
+			[
+				"rand",
+				"randInt_count"
+			],
+			[
+				"rad",
+				"randInt_count"
+			],
+			[
+				"ope",
+				"open_file"
+			],
+			[
+				"ran",
+				"randInt_count"
+			],
+			[
+				"reduce",
+				"reduced_path	statement"
+			],
+			[
+				"reduc",
+				"reduced_path	statement"
+			],
+			[
+				"nomina",
+				"nominator	statement"
+			],
+			[
+				"denomi",
+				"denominator_divided	statement"
+			],
+			[
+				"nomin",
+				"nominator_denominator	param"
+			],
+			[
+				"in",
+				"input	function"
+			],
+			[
+				"de",
+				"denominator_divided	statement"
+			],
+			[
+				"no",
+				"nominator_divided	statement"
+			],
+			[
+				"den",
+				"denominator_divisors	statement"
+			],
+			[
+				"nom",
+				"nominator_divisors	statement"
+			],
+			[
+				"wod",
+				"words_set	statement"
+			],
+			[
+				"n",
+				"n_list	statement"
+			],
+			[
+				"div",
+				"div_sum	statement"
+			],
+			[
+				"nub",
+				"number_to_list	module"
+			],
+			[
+				"lis",
+				"list_of_numbers	statement"
+			],
+			[
+				"prime",
+				"prime_number_of_divisors"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"install	",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anacon",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anaconda disa",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anaconda disable",
+				"Anaconda: Disable linting on this file"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/justtrelaxx/Desktop/TeamProject/Zoo/database.json",
+		"/home/justtrelaxx/Desktop/asd.py",
+		"/home/justtrelaxx/Desktop/TeamProject/Zoo/animal_tests.py",
+		"/home/justtrelaxx/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week3/TeamMatcher/team_matcher.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week3/Graphs/graph.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week3/Graphs/graph_test.py",
+		"/home/justtrelaxx/Desktop/asd",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/MusicLibrary/playlist.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/MusicLibrary/MusicCrawler.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/laptopbg.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/cash_desk_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/laptopbg_tests.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/laptop.bg.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/employee_hierarchy.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/emoloyee_hierarchy.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/unique_words_count_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/sort_fractions_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/simplify_fraction_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/simplify_fraction.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/reduce_file_path_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/prepare_meal_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/is_an_bn_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week3/team_matcher.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/fibonacci_lists_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/goldbach_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/group_by_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/member_of_fibonacci_lists_test.py",
+		"/home/justtrelaxx/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/justtrelaxx/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/dungeon.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/MusicLibrary/playlist_tests.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/MusicLibrary/song.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/MusicLibrary/json.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/MusicLibrary/song_tests.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/entity.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/fight_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/fight.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/basic_dungeon.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/hero_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/entity_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_orc_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/orc.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/weapon_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/a_hero/hero.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/entity/entity_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/entity/entity.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_weapon/weapon.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_weapon/weapon_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_orc/entity_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_orc/entity.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_orc/orc.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/the_orc/the_orc_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week2/a_hero/hero_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/is_an_bn.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/sort_fractions.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/prepare_meal.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/reduce_file_path.py",
+		"/home/justtrelaxx/.config/sublime-text-3/Packages/User/test.sublime-snippet",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/member_of_fibonacci_lists.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/goldbach.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/fibonacci_lists.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/unique_words_count.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-harder_problems/count_words_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/harder_problems/count_words.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/harder_problems/count_words_test.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/fraction.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/OOP/cash_desk.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week1/cash_desk.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F5/concat_files.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F6/wc.py",
+		"/home/justtrelaxx/Desktop/Python/Week-0/Problem F6 - Count characters words or lines/solution.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F6/story.txt",
+		"/home/justtrelaxx/Desktop/Python/Week-0/Problem F5 - Concatenate files into one/solution.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F5/MEGATRON.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F5/file2.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F5/file1.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F3/generate_numbers.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F4/file.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F4/sum_integers.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F3/file.txt",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F2/cat2.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/F1/cat.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/Problem F1 - Implement the cat command - Print file contents/cat.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0/week0-file_system_problems/cat.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0-1/calculate_coins.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0-1/nth_fibonacci.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/reduce_file_path.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/fibonacci_lists.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/member_of_fibonacci_lists.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/goldbach.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/week0-1/coins_count.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/sort_fractions.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/conj.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/unique_words_count.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/sudoku_solved.py",
+		"/home/justtrelaxx/Desktop/untitled",
+		"/home/justtrelaxx/Desktop/HackBulgaria/aabb.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/simplify_fraction.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/prepare_meal.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/count_words.py",
+		"/home/justtrelaxx/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/justtrelaxx/Desktop/HackBulgaria/group_by.py",
+		"/home/justtrelaxx/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/justtrelaxx/Desktop/HackBulgaria/sum_of_divisors.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/prime_factorization.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/coins_count.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/sevens_in_a_row.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/integer_palindroms.py",
+		"/home/justtrelaxx/Desktop/sevens_in_a_row.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/prime_number_of_divisors.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/nth_fibonacci.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/what_is_my_sign.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/Aries: 21 March – 20 April",
+		"/home/justtrelaxx/Desktop/HackBulgaria/is_prime.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/nan_expand.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/iterations_of_nan_expand.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/biggest_difference.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/is_increasing.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/is_decreasing.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/sum_matrix.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/zero_insert.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/count_substrings.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/number_to_list.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/list_to_number.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/count_consonants.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/count_vowels.py",
+		"/home/justtrelaxx/Desktop/HackBulgaria/contains_digit.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"animal.",
+			"self.",
+			"assertEuqal",
+			"assertEqual",
+			"unittest",
+			"test_graph",
+			"pathBetween",
+			"addEdge",
+			"test_graph",
+			"sample_graph",
+			"test_graph",
+			"nodeA",
+			"nodeB",
+			")\n",
+			"crawlDir",
+			"smartphhone",
+			"smarthphone",
+			"self",
+			"counter",
+			"songlist",
+			"health",
+			"bron_hero",
+			"Bron",
+			"bron_hero",
+			")",
+			"print(",
+			"denominator"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "polyglot.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
