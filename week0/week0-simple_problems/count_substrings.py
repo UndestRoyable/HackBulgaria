@@ -1,7 +1,6 @@
 def count_substrings(haystack, needle):
-	answer = haystack.count(needle)
-	return answer
-
+    answer = haystack.count(needle)
+    return answer
 
 
 def main():

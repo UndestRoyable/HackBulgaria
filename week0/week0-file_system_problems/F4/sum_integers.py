@@ -3,7 +3,7 @@ from sys import argv
 
 
 def sum_integers_from_file(filename):
-    
+
     content = open(filename, "r")
 
     integers_Sum = 0
@@ -15,12 +15,10 @@ def sum_integers_from_file(filename):
     return integers_Sum
 
 
-
 def main():
 
     filename = argv[1]
     print(sum_integers_from_file(filename))
-
 
 
 if __name__ == '__main__':

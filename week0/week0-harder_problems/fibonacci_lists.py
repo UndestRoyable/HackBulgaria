@@ -7,5 +7,3 @@ def nth_fib_lists(listA, listB, n):
         position += 1
 
     return listA
-
-

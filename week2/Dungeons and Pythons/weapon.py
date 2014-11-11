@@ -1,4 +1,6 @@
 import random
+
+
 class Weapon:
 
     def __init__(self, type, damage, critical_strike_percent):

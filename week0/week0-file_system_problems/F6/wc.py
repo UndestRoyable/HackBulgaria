@@ -2,11 +2,12 @@ import sys
 
 
 def count_lines(filename):
-    
+
     opened_file = open(filename, "r")
 
     contents = opened_file.read()
-    lines_count = contents.count("\n") + 1 #counts the endline symbols and +1 for the 1st line
+    lines_count = contents.count("\n") + 1
+    #counts the endline symbols and +1 for the 1st line
     opened_file.close()
     return lines_count
 
@@ -31,7 +32,6 @@ def count_words(filename):
             words.append(word)
     opened_file.close()
     return len(words)
-
 
 
 def main():

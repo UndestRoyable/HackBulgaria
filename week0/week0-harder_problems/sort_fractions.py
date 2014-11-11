@@ -12,5 +12,3 @@ def sort_fractions(fractions):
         result.append(fraction[1])
 
     return result
-
-

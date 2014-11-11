@@ -1,13 +1,14 @@
 import unittest
 from hero import Hero
 
+
 class HeroTest (unittest.TestCase):
 
     def setUp(self):
         self.bron_hero = Hero("Bron", 100, "DragonSlayer")
 
     def test_hero_init(self):
-    
+
         self.assertEqual(self.bron_hero.name, "Bron")
         self.assertEqual(self.bron_hero.health, 100)
         self.assertEqual(self.bron_hero.nickname, "DragonSlayer")
@@ -29,12 +30,12 @@ class HeroTest (unittest.TestCase):
         self.assertTrue(self.bron_hero.is_alive())
 
     def test_take_damage(self):
-        
+
         self.assertEqual(80, self.bron_hero.take_damage(20))
 
     def test_take_damage_more_than_health(self):
 
-        self.assertEqual(0,self.bron_hero.take_damage(120))
+        self.assertEqual(0, self.bron_hero.take_damage(120))
 
     def test_take_healing_to_dead_person(self):
         self.bron_hero.health = 0

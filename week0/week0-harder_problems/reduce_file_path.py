@@ -13,5 +13,3 @@ def reduce_file_path(path):
     reduced_path = list(filter(None, reduced_path))
     return "/" + "/".join(reduced_path)
 
-
-

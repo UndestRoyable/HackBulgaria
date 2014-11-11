@@ -1,6 +1,7 @@
 import unittest
 from count_words import count_words
 
+
 class CountWordsTest(unittest.TestCase):
 
     def test_if_count_words_returns_corect_data(self):

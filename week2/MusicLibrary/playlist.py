@@ -1,11 +1,12 @@
 import json
 
+
 def load(file_name):
     file = open(file_name, 'r')
     file_content = file.read()
-    file_content = json.loads(content)
+    file_content = json.loads(file_content)
     file.close()
-    loaded_playlist = Playlist(content['name'])
+    loaded_playlist = Playlist(file_content['name'])
     for song in file_content['songs']:
         loaded_playlist.songs.append(
             Song(
@@ -19,23 +20,24 @@ def load(file_name):
         )
     return loaded_playlist
 
+
 class Playlist:
 
     LOW_BITRATE = 128
-    def __init__(self,name):
+
+    def __init__(self, name):
         self.name = name
         self.songs = []
-        
 
-    def add_song(self,song):
+    def add_song(self, song):
         self.songs.append(song)
 
-    def remove_song(self,song_name):
+    def remove_song(self, song_name):
         for song in self.songs:
             if song.title == song_name:
                 self.songs.remove(song)
-                break #self.song.remove
-
+                break
+                #self.song.remove
 
     def total_length(self):
         playlist_total_length = 0
@@ -43,7 +45,7 @@ class Playlist:
             playlist_total_length += song.length
         return playlist_total_length
 
-    def remove_disrated(self,rating):
+    def remove_disrated(self, rating):
         result = []
         for i in range(0, len(self.songs)):
             if self.songs[i].rating >= rating:

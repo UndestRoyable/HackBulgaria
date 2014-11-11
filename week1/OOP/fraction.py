@@ -16,11 +16,11 @@ class Fraction:
         return other.get_float() < self.get_float()
 
     def __add__(self, other):
-        
-        return Fraction(nom, denom)
 
+        return Fraction(self.nominator, self.denominator)
 
     def __sub__(self, other):
+        pass
 
 
 def main():

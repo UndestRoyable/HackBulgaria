@@ -1,14 +1,15 @@
 import unittest
 from hero import Hero
 from orc import Orc
-from weapon import Weapon 
+from weapon import Weapon
 from fight import Fight
+
 
 class FightTest (unittest.TestCase):
     def test_init_fight(self):
-        orc = Orc("CskaSkinhead",100,3)
-        hero = Hero("LevskiHooligan",650,"ChupimSkuli")
-        fight = Fight(hero,orc)
+        orc = Orc("CskaSkinhead", 100, 3)
+        hero = Hero("LevskiHooligan", 650, "ChupimSkuli")
+        fight = Fight(hero, orc)
         self.assertEqual(fight.hero, hero)
         self.assertEqual(fight.orc, orc)
 
@@ -28,12 +29,6 @@ class FightTest (unittest.TestCase):
 
         self.assertEqual(fight.orc.fight_health, 0)
         self.assertTrue(fight.hero.fight_health > 0)
-
-        
-
-
-
-
 
 if __name__ == '__main__':
     unittest.main()
