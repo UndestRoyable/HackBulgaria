@@ -35,14 +35,20 @@ def show_movie_proejections(movie_id):
         print("[{}] - {} {} ({})".format(row["id"], row["date"], row["time"], row["type"]))
 
 
+def print_matrix():
+    cinema_hall = [["." for x in range(5)] for x in range(5)]
+    for row in cinema_hall:
+        print(cinema_hall)
+
+
 def make_reservation():
-    
     name = input("Enter your name: ")
     number_of_tickets = input("Enter number of tickets: ")
     show_movies()
     movie_choose = input("Choose a movie: ")
     show_movie_proejections(movie_choose)
     projection_choose = input("Choose a projection: ")
+    print_matrix()
 
 #---------------------------------------------------------------------------------------------
 
