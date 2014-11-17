@@ -9,16 +9,22 @@ __pycache__/
 .Python
 env/
 <<<<<<< HEAD
+<<<<<<< HEAD
 build/
 develop-eggs/
 dist/
 downloads/
 =======
+=======
+>>>>>>> adf34c6e37a3c87bebd6d445b0e7fcafeaade8ed
 bin/
 build/
 develop-eggs/
 dist/
+<<<<<<< HEAD
 >>>>>>> 3487c40c8fe9f94eac65cf8390cc301ea0f5e058
+=======
+>>>>>>> adf34c6e37a3c87bebd6d445b0e7fcafeaade8ed
 eggs/
 lib/
 lib64/
@@ -30,6 +36,7 @@ var/
 *.egg
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -38,6 +45,8 @@ var/
 
 =======
 >>>>>>> 3487c40c8fe9f94eac65cf8390cc301ea0f5e058
+=======
+>>>>>>> adf34c6e37a3c87bebd6d445b0e7fcafeaade8ed
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -53,6 +62,7 @@ coverage.xml
 # Translations
 *.mo
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.pot
 
 # Django stuff:
@@ -64,6 +74,8 @@ docs/_build/
 # PyBuilder
 target/
 =======
+=======
+>>>>>>> adf34c6e37a3c87bebd6d445b0e7fcafeaade8ed
 
 # Mr Developer
 .mr.developer.cfg
@@ -79,5 +91,13 @@ target/
 
 # Sphinx documentation
 docs/_build/
+<<<<<<< HEAD
 *.db
 >>>>>>> 3487c40c8fe9f94eac65cf8390cc301ea0f5e058
+=======
+<<<<<<< HEAD
+*.db
+=======
+
+>>>>>>> a4f7ba9abdc65cf3e254f34533b2e9965e524994
+>>>>>>> adf34c6e37a3c87bebd6d445b0e7fcafeaade8ed
