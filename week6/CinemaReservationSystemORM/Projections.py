@@ -1,5 +1,5 @@
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Float
 from sqlalchemy import create_engine
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import Session
@@ -11,13 +11,14 @@ Base = declarative_base()
 
 # Our class will be mapped to a table with name student
 # Each field is a Column with the given type and constraints
-class Student(Base):
-    __tablename__ = "student"
+class Projection(Base):
+    __tablename__ = "projections"
     id = Column(Integer, primary_key=True)
-    name = Column(String)
-    age = Column(Integer)
+    name = Column(Integer, ForeignKey("movies.id"))
+    projection = relationship("Movie", backref="projections")
+    rating = Column(Float)
 
 
-engine = create_engine("sqlite:///university.db")
+engine = create_engine("sqlite:///ReservationSystem.db")
 # will create all tables
 Base.metadata.create_all(engine)
